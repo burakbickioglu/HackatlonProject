@@ -2,7 +2,7 @@ import pyodbc
 from MyModule import sifrelemeYontemleri
 from MyModule import Dilkontrol
 from MyModule import help
-
+ 
 conn = pyodbc.connect('Driver={SQL Server};'
                       'Server=BURAK;'
                       'Database=hackathon;'
